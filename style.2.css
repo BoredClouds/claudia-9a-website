@@ -1,0 +1,81 @@
+body {
+  background-color: #6d2323;
+}
+header {
+  width: 95%;
+  border: 1px solid #c9c952;
+  padding: 30px;
+  border-radius: 20px 0 30px;
+  text-align: center;
+}
+h1 {
+  color: #f3f3e0;
+}
+
+p {
+  color: #cbdceb;
+}
+img {
+  width: 40%;
+  border: 3px solid #c9c952;
+  border-radius: 40px 0 40px 0;
+  box-shadow: 6px 6px 10px #e5d0ac;
+}
+header img:hover {
+  transform: scale(0.8);
+  transition: all 0.3s ease-in-out;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 6px 25px;
+  background-color: #d2665a;
+  border: none;
+  border-radius: 15px 0 15px 0;
+}
+button:hover {
+  transform: scale(0.8);
+  transition: all 0.3s ease-in-out;
+}
+.about {
+  width: 95%;
+  border: 1px solid #e5d0ac;
+  margin: 30px auto;
+  padding: 30px;
+  display: flex;
+}
+.left-about {
+  width: 60%;
+  border-radius: 12px;
+}
+.right-about h2 {
+  color: #6d2323;
+}
+#porducts {
+  width: 95%;
+  margin: 40px auto;
+}
+#products h2 {
+  color: #000000;
+}
+.products-card {
+  padding: 20px;
+  border: 1px dashed goldenrod;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card {
+  width: 350px;
+  border: 1px solid goldenrod;
+}
+.card img {
+  width: 100%;
+}
+footer {
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  background-color: #c9c952(133, 170, 96);
+}
